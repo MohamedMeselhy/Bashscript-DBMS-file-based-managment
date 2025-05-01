@@ -161,7 +161,7 @@ connect_database() {
             ;;
     esac
 }
-# Function to confirm exit
+# Function to Confirm Exit
 confirm_exit() {
     read -p "Are you sure you want to exit? (yes/no): " confirm
     case $confirm in
